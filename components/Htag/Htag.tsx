@@ -1,5 +1,5 @@
 import { HtagProps } from "./Htag.props";
-import styes from "./Htag.module.css";
+import styes from "./Htag.module.scss";
 
 export const Htag = ({ tag, children }: HtagProps): JSX.Element => {
   return (
