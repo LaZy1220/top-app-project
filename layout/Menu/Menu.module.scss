@@ -39,7 +39,11 @@
   padding-left: 32px;
   border-left: 1px solid #dfdfdf;
 }
-.secondLevelBlockOpen {
+.secondLevelBlock {
+  display: none;
+}
+.secondLevelBlockOpened {
+  display: block;
   &:last-child {
     margin-bottom: 20px;
   }
@@ -57,4 +61,5 @@
   }
 }
 .thirdLevelActive {
+  color: var(--primary);
 }
